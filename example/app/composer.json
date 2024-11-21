@@ -1,0 +1,6 @@
+{
+    "name": "inmoba/inmobalia-crm-oauth2-example",
+    "require": {
+        "league/oauth2-client": "^2.0"
+    }
+}

@@ -1,0 +1,17 @@
+services:
+  web:
+    image: shinsenter/phpfpm-nginx:php8.3-alpine
+    ports:
+      - "80:80"
+    environment:
+      # Unique identifier provided by Inmobalia to authenticate your application.
+      - INMOBALIA_CLIENT_ID={inmobalia-client-id}
+      # Secret key associated with the Inmobalia client. Required for authentication.
+      - INMOBALIA_CLIENT_SECRET={inmobalia-client-secret}
+      # Redirect URL where authentication tokens from Inmobalia are sent.
+      - INMOBALIA_REDIRECT_URI=https://example.com/callback-url
+      # List of specific permissions your application requests from Inmobalia. 
+      # Scopes must be space-separated (e.g., "properties:read users:read web-leads:write").
+      - INMOBALIA_SCOPES={inmobalia-scopes}
+    volumes:
+      - ./app:/var/www/html
