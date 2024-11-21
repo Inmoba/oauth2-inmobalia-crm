@@ -1,6 +1,10 @@
 # Inmobalia CRM Provider for OAuth 2.0 Client
+[![Source Code](https://img.shields.io/badge/source-inmoba/oauth2--inmobalia--crm-blue.svg?style=flat-square)](https://github.com/inmoba/oauth2-inmobalia-crm)
+[![Latest Version](https://img.shields.io/packagist/v/inmoba/oauth2-inmobalia-crm?style=flat-square)](https://packagist.org/packages/inmoba/oauth2-inmobalia-crm)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/inmoba/oauth2-inmobalia-crm/blob/master/LICENSE)
 
-This package provides Inmobalia CRM OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/inmoba/oauth2-inmobalia-crm).
+
+This package provides Inmobalia CRM OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
 
 ## Installation
 
