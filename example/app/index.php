@@ -1,9 +1,6 @@
 <?php
 
 require_once "vendor/autoload.php";
-require_once "/oauth2-inmobalia-crm/src/Provider/InmobaliaCrm.php";
-require_once "/oauth2-inmobalia-crm/src/Provider/InmobaliaCrmResourceOwner.php";
-require_once "/oauth2-inmobalia-crm/src/Provider/Exception/InmobaliaCrmIdentityProviderException.php";
 
 use GuzzleHttp\Exception\RequestException;
 use Inmobalia\OAuth2\Client\Provider\Exception\InmobaliaCrmIdentityProviderException;
